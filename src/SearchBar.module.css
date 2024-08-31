@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.searchBar {
+    display: flex;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.clear {
+    display: flex;
+    margin-bottom: 10px;
+}

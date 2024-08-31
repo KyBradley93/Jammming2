@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.songPic {
+    display: flex;
+    margin-top: 20px;
+    height: 450px;
+    width: 450px;
+}
+
+.trackDesc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    line-height: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 780px) {
+    .songPic {
+        display: flex;
+        margin-top: 20px;
+        height: 250px;
+        width: 250px;
+    }
+}
